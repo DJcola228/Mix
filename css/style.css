@@ -1,0 +1,108 @@
+@import url('fonts.css');
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.article_wrapper
+{
+    max-width: 960px;
+    padding: 60px 20px;
+    margin: 0 auto;
+}
+
+.logo
+{
+    font-size: 34px;
+    line-height: 77px;
+    font-weight: 400;
+    color: #060c31;
+    font-family: "Crete Round";
+    font-style: normal;
+    margin-bottom: 92px;
+}
+
+.main_title
+{
+    font-size: 58px;
+    letter-spacing: 50;
+    line-height: 64px;
+    color: #060c31;
+    font-weight: 300;
+    font-family: "Crete Round";
+    font-style: normal;
+    margin-bottom: 40px;
+}
+
+.text
+{
+    font-size: 15px;
+    letter-spacing: 50;
+    line-height: 28px;
+    color: #060c31;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    margin-bottom: 50px;
+}
+
+.article_photo
+{
+    max-height: 100%;
+    max-width: 100%;
+    margin-top: 40px;
+    margin-left: -20px;
+}
+
+.blue_button
+{
+    display: inline-block;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 50;
+    font-family: "Lato", sans-serif;
+    color: #ffffff;
+    border-radius: 25px;
+    background-color: #233fe2;
+    height: 50px;
+    width: 152px;
+    box-shadow: none;
+    border: none;
+    cursor: default;
+    outline: none;
+    margin-right: 20px;
+}
+.blue_button:hover
+{
+    background-color: #3551f1;
+}
+
+.red_button
+{
+    display: inline-block;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 50;
+    display: inline-block;
+    font-family: "Lato", sans-serif;
+    color: #060c31;
+    border-radius: 25px;
+    background-color: #ffffff;
+    border-color: #ffb0b1;
+    border-style: solid;
+    height: 50px;
+    width: 152px;
+    box-shadow: none;
+    cursor: default;
+    outline: none;
+}
+
+.red_button:hover
+{
+    background-color: #ffb0b1;
+}
